@@ -11,6 +11,7 @@ Record = collections.namedtuple('Record', 'date,actual_mean_temp,actual_min_temp
 
 
 def init():
+    '''Load the data file into memory'''
     base_folder = os.path.dirname(__file__)
     filename = os.path.join(base_folder, 'data', 'seattle.csv')
 
@@ -41,3 +42,12 @@ def parse_row(row):
     )
 
     return record
+
+def hot_days():
+    return sorted(data, key=lambda r: r.actual_max_temp, reverse=True)
+
+def cold_days():
+    return sorted(data, key=lambda r: r.actual_min_temp)
+
+def wet_days():
+    return sorted(data, key=lambda r: r.actual_precipitation, reverse=True)

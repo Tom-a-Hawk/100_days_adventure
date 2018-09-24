@@ -2,20 +2,26 @@ import research
 
 def main():
 
-    research.init()
     print("Weather research for Seattle, 2014-2015")
     print()
-    #TODO: Initialize the data
+    research.init()
 
     print("The hottest 5 days:")
-    #TODO: show the days
+    days = research.hot_days()
+    for idx, d in enumerate(days[:5],1):
+        print(f' {idx}. {d.actual_max_temp} F on {d.date}')
+    print()
 
     print("The coldest 5 days:")
-    #TODO: show the days
+    days = research.cold_days()
+    for idx, d in enumerate(days[:5],1):
+        print(f' {idx}. {d.actual_min_temp} F on {d.date}')
+    print()
 
     print("The wettest 5 days:")
-    #TODO: show the days
-
+    days = research.wet_days()
+    for idx, d in enumerate(days[:5],1):
+        print(f' {idx}. {d.actual_precipitation} inches of rain on {d.date}')
 
 
 
