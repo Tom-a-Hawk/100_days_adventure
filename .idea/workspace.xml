@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea163a55-3de9-4422-a9b1-24ac050f78d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/bad_drivers/program_drivers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/bad_drivers/research_drivers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/csv_weather/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/csv_weather/program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/csv_weather/research.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/csv_weather/research.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day01_datetime.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day02_timedelta.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day03_datetime_timedelta_review.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day04_collections.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day05_collections_movie_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day15_generators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day15_list_comprehensions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day16_practice_ListCompsAndGenerators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day28_regex.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/day29_regex.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +33,14 @@
     <session id="-1478177580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,39 +69,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/bad_drivers/program_drivers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/bad_drivers/bad-drivers.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/bad_drivers/research_drivers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1537814621191" expanded="true" signature="1756:1839" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,17 +101,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2436" />
-    <option name="y" value="-27" />
-    <option name="width" value="654" />
-    <option name="height" value="688" />
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,12 +126,13 @@
               <item name="100_days_adventure" type="b2602c69:ProjectViewProjectNode" />
               <item name="100_days_adventure" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="bad_drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="json-stuff" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,9 +296,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16198044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1708502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,26 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="46" column="70" lean-forward="true" selection-start-line="25" selection-end-line="46" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1537214105446" expanded="true" signature="398:403" ph="..." />
-            <marker date="1537214105446" expanded="true" signature="737:738" ph="..." />
-            <marker date="1537214105446" expanded="true" signature="1563:1568" ph="..." />
-            <marker date="1537214105446" expanded="true" signature="1652:1653" ph="..." />
-            <marker date="1537214105446" expanded="true" signature="1652:1711" ph="..." />
-            <marker date="1537214105446" expanded="true" signature="1726:1727" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/bad_drivers/research_drivers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1537814621191" expanded="true" signature="1756:1839" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,23 +346,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="10" lean-forward="true" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <marker date="1537405842033" expanded="true" signature="28:29" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/bad_drivers/program_drivers.py">
+    <entry file="file://$PROJECT_DIR$/code/bad_drivers/research_drivers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="850">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/bad_drivers/bad-drivers.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/bad_drivers/program_drivers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
