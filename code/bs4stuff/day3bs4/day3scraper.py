@@ -2,7 +2,10 @@ from collections import namedtuple
 import requests
 import bs4
 import pprint
+import cProfile
 
+profiler = cProfile.Profile()
+profiler.disable()
 # URL of site we want to scrape
 URL = "https://news.ycombinator.com/"
 
@@ -12,6 +15,7 @@ def pull_site():
     return raw_site_page
 
 def scrape(site):
+    profiler.enable()
     header_list = []
     #Create BeautifulSoup object
     soup = bs4.BeautifulSoup(site.text, 'html.parser')
@@ -31,6 +35,10 @@ def scrape(site):
         article = Article(position=record[0], title=record[1])
         print(f'Article {article.position} is {article.title}')
 
+    profiler.disable()
+
 if __name__ == "__main__":
     site = pull_site()
     scrape(site)
+
+    profiler.print_stats(sort='cumtime')

@@ -1,0 +1,35 @@
+BEFORE
+Starting cProfile profiler
+
+250228227655728
+         6023812 function calls in 2.140 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   999999    0.350    0.000    1.991    0.000 random.py:218(randint)
+   999999    0.787    0.000    1.642    0.000 random.py:174(randrange)
+   999999    0.599    0.000    0.855    0.000 random.py:224(_randbelow)
+  1023814    0.176    0.000    0.176    0.000 {method 'getrandbits' of '_random.Random' objects}
+   999999    0.096    0.000    0.096    0.000 {method 'append' of 'list' objects}
+   999999    0.080    0.000    0.080    0.000 {method 'bit_length' of 'int' objects}
+        1    0.052    0.052    0.052    0.052 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+		
+		
+
+AFTER OPTIMIZATION
+
+         2000001 function calls in 2.116 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   999999    1.943    0.000    1.943    0.000 {method 'randint' of 'mtrand.RandomState' objects}
+   999999    0.090    0.000    0.090    0.000 {method 'append' of 'list' objects}
+        1    0.077    0.077    0.077    0.077 {built-in method builtins.sum}
+        1    0.006    0.006    0.006    0.006 {built-in method numpy.core.multiarray.arange}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
