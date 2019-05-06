@@ -27,9 +27,6 @@ touch routes.py
 edit our __init__.py file
 vi __init__.py
 
-
-
-
 define environment variable
 set FLASK_APP=demo.py
 
@@ -38,15 +35,5 @@ pip install python-dotenv
 vi .flaskenv
 FLASK_APP=demo.py
  
-
-
-
-
-
-
-
-
-
-
-
-
+To start flask
+flask run
